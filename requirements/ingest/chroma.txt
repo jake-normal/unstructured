@@ -67,7 +67,7 @@ fsspec==2024.5.0
     # via
     #   -c ./ingest/../deps/constraints.txt
     #   huggingface-hub
-google-auth==2.32.0
+google-auth==2.33.0
     # via kubernetes
 googleapis-common-protos==1.63.2
     # via opentelemetry-exporter-otlp-proto-grpc
@@ -280,7 +280,7 @@ uvicorn[standard]==0.30.5
     # via chromadb
 uvloop==0.19.0
     # via uvicorn
-watchfiles==0.22.0
+watchfiles==0.23.0
     # via uvicorn
 websocket-client==1.8.0
     # via kubernetes
